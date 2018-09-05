@@ -1,0 +1,12 @@
+{
+    "name": "lapress/presets",
+    "description": "Presets for lapress development",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Szczepanski",
+            "email": "sszczepanski@divante.pl"
+        }
+    ],
+    "require": {}
+}
