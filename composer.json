@@ -1,12 +1,24 @@
 {
     "name": "lapress/presets",
-    "description": "Presets for lapress development",
+    "description": "Presets for laPress development",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sebastian Szczepanski",
-            "email": "sszczepanski@divante.pl"
+            "name": "Sebastian Szczepański",
+            "email": "sebastian@ably.pl"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "LaPress\\Presets\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaPress\\Presets\\PresetsServiceProvider"
+            ]
+        }
+    }
 }
