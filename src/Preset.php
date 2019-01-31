@@ -56,7 +56,7 @@ class Preset extends BasePreset
 
         $packages['extra'] = $packages['extra'] ?? [];
         $packages['extra'] = array_merge($packages['extra'], [
-            'wordpress-install-dir' => 'storage/wordpress',
+            'wordpress-install-dir' => 'storage/framework/wordpress',
         ]);
 
         file_put_contents(
